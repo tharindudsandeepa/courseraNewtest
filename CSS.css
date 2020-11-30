@@ -1,0 +1,70 @@
+h1{
+	text-align:center;
+	font-family: "Lucida Console", Courier, monospace;
+	font-size:40px;
+	color: #a60a31;
+	border-style: outset;
+	border-width: 7px;
+	border-color:#69152b;
+	Background-color:#f07341;
+
+}
+h3{
+	color:#2e1701;
+	font-size:26px;
+	font-family:  "Lucida Console", Courier, monospace;
+	text-align: right;
+	border: 1px solid black;
+	border-spacing: 10px;
+	width: 50%;
+	background-color:#cc6137;
+
+}
+
+.box1{
+	border: 1px solid black;
+	float:left;
+	width:32%;
+	padding:10px;
+	height:250px;
+	margin-right: 5px;
+	margin-top:50px;
+	background-color:#fff280;
+
+}
+.box2{
+	border: 1px solid black;
+	float:left;
+	width:32%;
+	padding:10px;
+	height:250px;
+	margin-right: 5px;
+	margin-top:50px;
+	background-color:#fff280;
+
+}
+*{
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 991px){
+	.box1{
+		width:49%;
+	}
+	.box2{
+		width:100%;
+	}
+
+
+}
+@media screen and (max-width: 767px){
+	.box1{
+		width:100%;
+	}
+	.box2{
+		width:100%;
+	}
+}
+*{
+	background-color: #fff9c2
+}
